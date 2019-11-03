@@ -4,7 +4,6 @@
 <head>
 	<title>The Earl of Lemongrab</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -14,12 +13,12 @@
 
 	<div>
 
-		<header>
-			<div id="header-content">
-				<div class="paddedbox" id="name">
+		<header class="row">
+			<div class="header-content">
+				<div class="col-sm-4 float-left paddedbox name">
 					Earl of Lemongrab
 				</div>
-				<div id="navlinks">
+				<div class="col-sm-8 float-right" id="navlinks">
 						About &nbsp &nbsp<span id="nav-separator">|</span>&nbsp &nbsp <a href = "portfolio.html">Portfolio</a> &nbsp &nbsp<span id="nav-separator">|</span>&nbsp &nbsp <a href = "contact.html">Contact</a>
 				</div>
 			</div>
@@ -27,17 +26,18 @@
 
 		<br>
 		
-		<div class="mid-body">
-
-			<div id="about">
-				About Me
-			</div>
+		<!--beginning of card area-->
+		<div class="container mid-body">
+			<!--<div class="row">-->
+				<div class="col-md-12">
+					<div class="col-md-12 about">About Me</div>
+				</div>
 
 			<div>
 				<img src="assets/images/lemon_unaccept.png" alt="Lemongrab" height=200px width=200px id="about-img">
 			</div>
 			
-			<div id="textmargins">
+			<div class="col-md-12">
 				<p>
 					I am the first being Princess Bubblegum ever created, and I live in a realm also called Lemongrab. Some say I am socially dysfunctional, and have trouble interacting with Candy Kingdom citizens due to my intolerance towards anything happy or comical. To that I say, "Twelve years dungeon. All of you. Dungeon. Seven years, no trials. C'mon, let's move it!" The following is a summary of my accomplishments, which you may view at your leisure on Cartoon Network.
 				</p>
@@ -63,13 +63,15 @@
 					The sixth-season episode "The Mountain" suggests that this new me, while still somewhat off, is a much more competent ruler.
 				</p>
 			</div>
-
+		<!--</div>-->
 	</div> <!-- end of the card area -->
 
-  <footer>
-		<div id="text-to-bottom">
+  <footer class="container-fluid">
+		<!--<div class="row">-->
+		<div>
 			Thanks to Wikipedia for page content.
 		</div>
+		<!--</div>-->
 	</footer>
 
 </div>

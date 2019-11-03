@@ -1,0 +1,223 @@
+.paddedbox {
+  padding: 18px; 
+}
+
+.name {
+  font-family: Georgia, serif;
+  /*text-align: center;*/
+  background-color: #148f77;
+  /*float: left;*/
+  font-weight: bold;
+  color: whitesmoke;
+  padding-left: 30px;
+  font-size: 24px;
+}
+
+.about {
+  border-bottom: 2px solid #b6b8ac;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  line-height: 3.0;
+  color:  #148f77 ;
+  font-weight: bold;
+  padding: 0px;
+}
+
+#navlinks {
+  /*float:right;*/
+  /*font-family: "Source Sans Pro", "Arial", sans-serif;*/
+  margin: 24px auto;
+  text-align: right;
+  /*vertical-align: center;*/
+  color: #6f7067;
+}
+
+ /* unvisited link */
+ a:link {
+  color: #6f7067;
+  text-decoration: none;
+}
+
+#nav-separator {
+  color: #bcbdb3;
+}
+
+/* visited link */
+a:visited {
+  color:  #43443e ;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #148f77;
+}
+
+/* selected link */
+a:active {
+  font-weight: bold;
+}
+
+header {
+  background: whitesmoke;
+  border-bottom: 2px solid #b6b8ac;
+  /*height: 64px;*/
+}
+
+.header-content {
+  width: 960px;
+  /*height: 72px;*/
+  margin: 0px auto;
+  background-color: whitesmoke;
+}
+
+footer {
+  background: #4d4d49;
+  border-top: 5px solid #148f77;
+  height: 48px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 12px;
+  bottom: 0;
+  left: 0;
+  /*position: absolute;*/
+  width: 100%;
+}
+
+#fp-relative {
+  position: relative;
+}
+
+#text-to-bottom {
+  margin: 30px auto auto auto
+}
+
+.mid-body {
+  max-width: 960px;
+  /*margin: 20px auto 100px auto;*/
+  background-color: whitesmoke;
+  border: 1px solid #b6b8ac;
+  margin-top: 2%;
+  margin-bottom: 20%;
+  padding-bottom: 5%;
+}
+
+p {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  line-height: 1.8;
+  /*margin: 0px 0px 20px 0px;*/
+  color: #6f7067;
+}
+
+.textmargins {
+  /*margin: 20px;*/
+  padding-top: 15px;
+}
+
+body {
+  background-image: url("../images/lemons.jpg");
+  background-repeat:repeat;
+}
+
+/* added */
+/*
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+*/
+
+/* added */
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+}
+
+#about-img {
+  max-width: 25%;
+  height: auto;
+  float: left;
+  border: 2px solid #b6b8ac;
+  margin: 27px 20px 20px 20px;
+}
+
+/* forms styling */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #b6b8ac;
+  color: #212f3c;
+  background-color: whitesmoke;
+}
+
+#resize-height-only {
+  resize: vertical;
+}
+
+input[type=button], input[type=submit] {
+  background-color: #148f77;
+  border: none;
+  padding: 10px 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+form, input, select {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  color: #6f7067;
+}
+
+#submit {
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+/* review what these do */
+* {
+  box-sizing: border-box;
+ }
+ 
+ *:before,
+ *:after {
+  box-sizing: border-box;
+ }
+
+ /* gallery styles */
+.gallery {
+  margin: 10px;
+  background-color: whitesmoke;
+}
+
+.gallery-img {
+  max-width: 300px;
+  position: relative;
+  height: auto;
+  float: left;
+  border: 0px;
+  margin: 10px;
+  font-size: 24px;
+}
+
+.img-caption {
+  background-color: #148f77;
+  font-weight: bold;
+  padding: 12px;
+  color: whitesmoke;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}

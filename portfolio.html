@@ -3,71 +3,82 @@
 
 <head>
   <title>The Earl of Lemongrab</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header>
-    <div id="header-content">
-      <div class="paddedbox" id="name">
-        Earl of Lemongrab
-      </div>
-      <div id="navlinks">
-        <a href = "index.html">About</About></a> &nbsp &nbsp<span id="nav-separator">|</span>&nbsp &nbsp Portfolio &nbsp &nbsp<span id="nav-separator">|</span>&nbsp &nbsp <a href = "contact.html">Contact</a>
-      </div>
-    </div>
-  </header>
+  <div class="container-fluid">
 
-  <div class="mid-body clearfix">
-    <div id="about">
-      Portfolio
+    <header class="row">
+      <div class="header-content">
+        <div class="col-sm-4 float-left paddedbox name">
+          Earl of Lemongrab
+        </div>
+        <div class="col-sm-8 float-right" id="navlinks">
+            <a href = "index.html">About</a> &nbsp &nbsp<span id="nav-separator">|</span>&nbsp &nbsp <a href = "portfolio.html">Portfolio</a> &nbsp &nbsp<span id="nav-separator">|</span>&nbsp &nbsp Contact
+        </div>
+      </div>
+    </header>
+
+  <!-- beginning of card area-->
+  <div class="container justify-content-md-left mid-body">
+
+    <div class="col-md-12">
+      <div class="col-md-12 about">Portfolio</div>
     </div>
     
-    <figure class="gallery-img">
-      <img src="assets/images/lemonbros.png" alt="Lemongrab and his brother" class="gallery-img">
-      <figcaption class="img-caption">
-          Desert Camels
-      </figcaption>
-    </figure>
+    <!-- gallery container -->
+    <div class="container">
 
-    <figure class="gallery-img">
-      <img src="assets/images/lemonhope_and_owl.png" alt="Lemonhope and an owl" class="gallery-img">
-      <figcation class="img-caption">
-          Lemonhope and Owl
-      </figcation>
-    </figure>
+      <div class="row">
+      <figure class="col-sm-6 position-relative gallery-img">
+        <img src="assets/images/lemonbros.png" alt="Lemongrab and his brother" class="img-fluid gallery-img">
+        <figcaption class="img-caption no-gutter position-absolute">
+            Desert Camels
+        </figcaption>
+      </figure>
 
-    <figure class="gallery-img">
-      <img src="assets/images/princess_and_lemongrab.jpg" alt="Lemongrab and princess bubblegum" class="gallery-img">
-      <figcaption class="img-caption">
-          Princess Bubblegum
-      </figcaption>
-    </figure>
+      <figure class="col-sm-6 gallery-img">
+        <img src="assets/images/lemonhope_and_owl.png" alt="Lemonhope and an owl" class="image-fluid gallery-img">
+        <figcation class="img-caption">
+            Lemonhope and Owl
+        </figcation>
+      </figure>
 
-    <figure class="gallery-img">
-      <img src="assets/images/lemonfamily.jpg" alt="Lemongrab and his brother" class="gallery-img">
-      <figcaption class="img-caption">
-          Lemongrab and Clone
-      </figcaption>
-    </figure>
+      <figure class="col-sm-6 gallery-img">
+        <img src="assets/images/princess_and_lemongrab.jpg" alt="Lemongrab and princess bubblegum" class="image-fluid gallery-img">
+        <figcaption class="img-caption">
+            Princess Bubblegum
+        </figcaption>
+      </figure>
 
-    <figure class="gallery-img">
-      <img src="assets/images/badlemonhope.png" alt="Lemongrab and his brother" class="gallery-img">
-      <figcaption class="img-caption">
-          Lemonhope and Harp
-      </figcaption>
-    </figure>
+      <figure class="col-sm-6 gallery-img">
+        <img src="assets/images/lemonfamily.jpg" alt="Lemongrab and his brother" class="gallery-img">
+        <figcaption class="img-caption">
+            Lemongrab and Clone
+        </figcaption>
+      </figure>
 
-  </div>
+      <figure class="col-sm-6 gallery-img">
+        <img src="assets/images/badlemonhope.png" alt="Lemongrab and his brother" class="gallery-img">
+        <figcaption class="img-caption">
+            Lemonhope and Harp
+        </figcaption>
+      </figure>
 
-  <footer id="fp-relative">
-    <div id="text-to-bottom">
-      Thanks to Wikipedia for page content.
     </div>
+
+    </div> <!-- end gallery -->
+
+  </div> <!--end of card area-->
+
+  <footer class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">Thanks to Wikipedia for page content.</div>
+      </div>
   </footer>
-</div>
 
 </body>
 

@@ -4,9 +4,7 @@
 
 .name {
   font-family: Georgia, serif;
-  /*text-align: center;*/
   background-color: #148f77;
-  /*float: left;*/
   font-weight: bold;
   color: whitesmoke;
   padding-left: 30px;
@@ -21,14 +19,10 @@
   color:  #148f77 ;
   font-weight: bold;
   padding: 0px;
+  margin-bottom: 20px;
 }
 
-#navlinks {
-  /*float:right;*/
-  /*font-family: "Source Sans Pro", "Arial", sans-serif;*/
-  margin: 24px auto;
-  text-align: right;
-  /*vertical-align: center;*/
+.navlinks {
   color: #6f7067;
 }
 
@@ -61,12 +55,10 @@ a:active {
 header {
   background: whitesmoke;
   border-bottom: 2px solid #b6b8ac;
-  /*height: 64px;*/
 }
 
 .header-content {
   width: 960px;
-  /*height: 72px;*/
   margin: 0px auto;
   background-color: whitesmoke;
 }
@@ -80,38 +72,23 @@ footer {
   font-size: 12px;
   bottom: 0;
   left: 0;
-  /*position: absolute;*/
   width: 100%;
 }
 
-#fp-relative {
-  position: relative;
-}
-
-#text-to-bottom {
-  margin: 30px auto auto auto
-}
-
 .mid-body {
-  /*max-width: 960px;*/
-  /*margin: 20px auto 100px auto;*/
   background-color: whitesmoke;
   margin: 2% 0px 20% 0px;
   border: 1px solid #b6b8ac;
   margin-top: 2%;
-  /*margin-bottom: 20%;*/
-  /*padding-bottom: 5%;*/
 }
 
 p {
   font-family: "Source Sans Pro", "Arial", sans-serif;
   line-height: 1.8;
-  /*margin: 0px 0px 20px 0px;*/
   color: #6f7067;
 }
 
 .textmargins {
-  /*margin: 20px;*/
   padding-top: 15px;
 }
 
@@ -120,31 +97,12 @@ body {
   background-repeat:repeat;
 }
 
-/* added */
-/*
-html,
-body {
- height: 100%;
- position: relative;
-}
-*/
-
-/* added */
-/*
-.page-container {
-  position: relative;
-  min-height: 100vh;
-  overflow: hidden;
-  display: block;
-}
-*/
-
-#about-img {
-  max-width: 25%;
-  height: auto;
+.about-img {
+  /*max-width: 25%;*/
+  /*height: auto;*/
   float: left;
   border: 2px solid #b6b8ac;
-  margin: 27px 20px 20px 20px;
+  margin: 7px 20px 0px 20px;
 }
 
 /* forms styling */
@@ -179,16 +137,6 @@ form, input, select {
   font-size: 14px;
 }
 
-/* review what these do */
-* {
-  box-sizing: border-box;
- }
- 
- *:before,
- *:after {
-  box-sizing: border-box;
- }
-
  /* gallery styles */
 .gallery {
   margin: 10px;
@@ -196,35 +144,20 @@ form, input, select {
 }
 
 .gallery-img {
-  /*position: relative;*/
   height: auto;
   overflow: hidden;
   margin-top: 15px;
   max-width: 335px;
-  /*float: left;*/
-  /*border: 0px;*/
-  /*margin: 10px;*/
-  /*font-size: 24px;*/
 }
 
 .img-caption {
   background-color: #148f77;
   font-family: Georgia, serif;
   font-size: 24px;
-  /*font-weight: bold;*/
   padding: 12px;
   color: whitesmoke;
   position: absolute;
   bottom: 10px;
-  /*left: 0px;*/
   width: 320px;
-  /*height: 50px;*/
-  /*margin: 10px;*/
   text-align: center;
-}
-
-.clearfix::after {
-  content: " ";
-  display: block;
-  clear: both;
 }
